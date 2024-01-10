@@ -1,0 +1,6 @@
+#load 16px image and call it 'a'
+load test/images/16px.ppm a
+compress 100 a black
+red-component a aRed
+brighten 30 aRed aRedBright
+save test/images/black-test.ppm black
