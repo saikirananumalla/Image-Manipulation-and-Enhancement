@@ -11,13 +11,13 @@ levels-adjust operations.
 
 `The application program can be launched in three ways:`
 
-java -jar <project>.jar -file path-of-script-file : when invoked in this manner the program opens
+java -jar project.jar -file path-of-script-file : when invoked in this manner the program opens
 the script file, executes it and shuts down.
 
-java -jar <project>.jar -text : when invoked in this manner the program opens an interactive cli
+java -jar project.jar -text : when invoked in this manner the program opens an interactive cli
 mode, which allows the user to type the script and execute it one line at a time.
 
-java -jar <project>.jar : when invoked in this manner the program opens the graphical user
+java -jar project.jar : when invoked in this manner the program opens the graphical user
 interface.
 
 Citation/Note: the image flower.png belongs to Sai Kiran Anumalla (project member), it is
